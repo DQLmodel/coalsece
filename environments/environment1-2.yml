@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "2"
+mappingDefinitions:
+  SRC:
+    database: DQLABS_QA
+    schema: CUSTOMERAI
+  TARGET:
+    database: DQLABS_QA
+    schema: DBADMIN
+name: environment1
+type: Environment
