@@ -1,0 +1,301 @@
+fileVersion: 1
+id: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+name: ENRICHMENT_DATA
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a6b72c73-d1dc-4cd1-920a-9a3f3f80ec26
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: DOOR_NUMBER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cd0b77fe-3483-4b84-86ef-61e15507c101
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 801acec1-4796-4f52-95c7-c111a6fb6b9f
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: NPANXX
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7e85ca24-b914-4947-b9dc-da7462213458
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: CITY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: af405f72-0708-4664-b930-b74bdbe63019
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: STATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 423e4214-a15b-4e8a-80e7-dc2a8a093ee2
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: STATEISO
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1a4c1557-0818-426a-963b-4f7332786021
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: COUNTRY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a7ee23a2-e882-4938-9466-d9ee69618d1b
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: COUNTRYISO
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4da78554-59e8-4bc2-a497-dd7dbe254cdf
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: ZIPCODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ed2fefa2-a6ad-430b-b3dc-7f63d13f889e
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: GMTOFFSET
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0f9170e4-7798-479f-bfad-0a1f182f21fd
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: GMTOFFSETDST
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4820f0bb-4abf-4df4-a0a9-4997de45fb38
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: DSTOBSERVED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5ac492f8-281b-4e93-95fe-9524f995ff05
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: LATITUDE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0bdcd30c-de2e-4972-bbf3-9996c07da2ce
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: LONGITUDE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6f8aecae-fd80-4946-bc6a-2f877a5d9916
+          stepCounter: 8a1338b8-329a-4d2b-a6f3-2d4a18f5a3b3
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: DOOR NUMBER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: ENRICHMENT_DATA
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

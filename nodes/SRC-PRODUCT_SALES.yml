@@ -1,0 +1,92 @@
+fileVersion: 1
+id: fc90e4ad-68c4-43f0-9eb9-e84a411c0a9d
+name: PRODUCT_SALES
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8c508829-d481-4eee-9ae4-2b448f4e8f1d
+          stepCounter: fc90e4ad-68c4-43f0-9eb9-e84a411c0a9d
+        config: {}
+        dataType: VARCHAR(32767)
+        defaultValue: ""
+        description: ""
+        name: PRODUCTID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 796462a8-3788-4ee2-989b-62f2e9141e4f
+          stepCounter: fc90e4ad-68c4-43f0-9eb9-e84a411c0a9d
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: TOTAL_AMOUNT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cf38773d-4e62-4f33-bfb0-a92706575df2
+          stepCounter: fc90e4ad-68c4-43f0-9eb9-e84a411c0a9d
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: TOTAL_NET_AMOUNT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 63183f55-38b7-4044-92e0-0ec7db50d755
+          stepCounter: fc90e4ad-68c4-43f0-9eb9-e84a411c0a9d
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: TOTAL_TAX
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: PRODUCT_SALES
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

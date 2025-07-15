@@ -1,0 +1,54 @@
+fileVersion: 1
+id: 9ed6f27b-388e-4fb4-8563-da21a299cd14
+name: PROFILE_d1aef6de-2d47-46f8-9faf-bd3793241100
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: TARGET
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d7047367-5c93-490c-9fe5-a223553eb4f6
+          stepCounter: 9ed6f27b-388e-4fb4-8563-da21a299cd14
+        config: {}
+        dataType: VARCHAR(32767)
+        defaultValue: ""
+        description: ""
+        name: PRODUCTID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0116e3a4-c992-492f-99a3-f206a6613c84
+          stepCounter: 9ed6f27b-388e-4fb4-8563-da21a299cd14
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: TOTAL_AMOUNT_SALES
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: PROFILE_d1aef6de-2d47-46f8-9faf-bd3793241100
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

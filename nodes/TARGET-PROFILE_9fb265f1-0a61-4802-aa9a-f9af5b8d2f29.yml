@@ -1,0 +1,187 @@
+fileVersion: 1
+id: 16f5ebe6-1f5e-40be-abf2-92d4d2f96c5e
+name: PROFILE_9fb265f1-0a61-4802-aa9a-f9af5b8d2f29
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: TARGET
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3ee8284e-15d8-4b1f-9a67-65eae2307b3a
+          stepCounter: 16f5ebe6-1f5e-40be-abf2-92d4d2f96c5e
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: SALESORDERID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8080a4c7-a10b-4423-a639-d0ec35155ba5
+          stepCounter: 16f5ebe6-1f5e-40be-abf2-92d4d2f96c5e
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: COMPANY_INFO
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 07a7cb85-136c-43da-bc20-6f0c66c36d19
+          stepCounter: 16f5ebe6-1f5e-40be-abf2-92d4d2f96c5e
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: CREATED_EMPLOYEE_EMAIL
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a1bb6b6f-6def-4435-bc58-860e576d2e3b
+          stepCounter: 16f5ebe6-1f5e-40be-abf2-92d4d2f96c5e
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: CREATED_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 61f93da1-ba75-4675-8857-e79b91b187a5
+          stepCounter: 16f5ebe6-1f5e-40be-abf2-92d4d2f96c5e
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: CURRENCY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: de117fe8-94e6-4b82-9505-01a37b3e552b
+          stepCounter: 16f5ebe6-1f5e-40be-abf2-92d4d2f96c5e
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: ITEM_GROSSAMOUNT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 97578360-5ca5-4912-8b96-98db34d40c2a
+          stepCounter: 16f5ebe6-1f5e-40be-abf2-92d4d2f96c5e
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: ITEM_NETAMOUNT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c63e8e43-d820-4b66-8c3b-792fd21c89c5
+          stepCounter: 16f5ebe6-1f5e-40be-abf2-92d4d2f96c5e
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: ITEM_TAXAMOUNT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 143c17f7-053d-4769-b8e5-61abdf4688d4
+          stepCounter: 16f5ebe6-1f5e-40be-abf2-92d4d2f96c5e
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: PRODUCTID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: PROFILE_9fb265f1-0a61-4802-aa9a-f9af5b8d2f29
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

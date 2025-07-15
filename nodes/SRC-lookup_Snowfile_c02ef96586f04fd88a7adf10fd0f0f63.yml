@@ -1,0 +1,35 @@
+fileVersion: 1
+id: 774e37f4-453d-4765-87f3-d52eda559b71
+name: lookup_Snowfile_c02ef96586f04fd88a7adf10fd0f0f63
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c8a91992-b336-4f4e-b4e1-07b520cbab2d
+          stepCounter: 774e37f4-453d-4765-87f3-d52eda559b71
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: Fname
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: lookup_Snowfile_c02ef96586f04fd88a7adf10fd0f0f63
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

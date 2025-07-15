@@ -1,0 +1,149 @@
+fileVersion: 1
+id: 9f25f170-dc6b-4f37-a102-932e01eccaf5
+name: STG_HR_DATA
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6fce117a-3eaa-4730-9680-5064a027f103
+          stepCounter: 9f25f170-dc6b-4f37-a102-932e01eccaf5
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: FIRST_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c1c0bf71-9f3c-4cb2-b839-fffcf1c1eb9b
+          stepCounter: 9f25f170-dc6b-4f37-a102-932e01eccaf5
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: LAST_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 322ee0e7-c1b2-401c-a4e4-86e3ed4a3d96
+          stepCounter: 9f25f170-dc6b-4f37-a102-932e01eccaf5
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: GENDER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f05fb440-f80e-44f3-a376-9d0612233a4a
+          stepCounter: 9f25f170-dc6b-4f37-a102-932e01eccaf5
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: DEPARTMENT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 52ba61f9-c613-4d2e-a704-52fa52a4b57c
+          stepCounter: 9f25f170-dc6b-4f37-a102-932e01eccaf5
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: EMP_ID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dbc07a91-686b-4060-be69-4b686a218375
+          stepCounter: 9f25f170-dc6b-4f37-a102-932e01eccaf5
+        config: {}
+        dataType: NUMBER(38,20)
+        defaultValue: ""
+        description: ""
+        name: GL_CREDIT_AMOUNT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 04038896-22a8-4965-a160-c4aa94cc3b13
+          stepCounter: 9f25f170-dc6b-4f37-a102-932e01eccaf5
+        config: {}
+        dataType: BINARY(8388608)
+        defaultValue: ""
+        description: ""
+        name: COST
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: STG_HR_DATA
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

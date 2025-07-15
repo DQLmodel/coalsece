@@ -1,0 +1,73 @@
+fileVersion: 1
+id: 4d0a6d53-0b91-4dd5-8357-0d64093fd37a
+name: lookup_SNOWFLAKE_TABLE_9011818d8c5246f9a8184867e99c66fc
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1461376d-c0b2-4e55-b5aa-3b9a89326334
+          stepCounter: 4d0a6d53-0b91-4dd5-8357-0d64093fd37a
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: FIRST_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a3fbcb1c-de5e-4721-b03c-ec7dc8ad6bc5
+          stepCounter: 4d0a6d53-0b91-4dd5-8357-0d64093fd37a
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: LAST_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 76659900-78b7-4f3a-a876-3e2ad505b877
+          stepCounter: 4d0a6d53-0b91-4dd5-8357-0d64093fd37a
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: SUBSCRIPTION_LEVEL
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: lookup_SNOWFLAKE_TABLE_9011818d8c5246f9a8184867e99c66fc
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

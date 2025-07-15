@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "3"
+includeSelector: "{ location: SRC name: DIM_NODE } OR { location: SRC name: STG_/BIC/ASSET } OR { location: SRC name: DIM_NODE1 }"
+name: job_create
+type: Job

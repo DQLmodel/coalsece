@@ -1,0 +1,225 @@
+fileVersion: 1
+id: 63e6d6b4-3bde-4fe8-9a76-c2d5c4fa8822
+name: VW_ALL_CLAIM_INFO_AGG_FINANCIALS_Q
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: TARGET
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6aec6ab7-7df7-403c-be6a-3244dc415913
+          stepCounter: 63e6d6b4-3bde-4fe8-9a76-c2d5c4fa8822
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: ARCHLOSSTYPECD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 76558b8d-a97a-4531-abe6-fadddc1a3734
+          stepCounter: 63e6d6b4-3bde-4fe8-9a76-c2d5c4fa8822
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: CLAIMTYPECD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: abda30ff-83b7-437b-b521-759662fdf858
+          stepCounter: 63e6d6b4-3bde-4fe8-9a76-c2d5c4fa8822
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: BODYPARTCD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 61de2544-ff3c-4a2f-b2f2-ff0966219613
+          stepCounter: 63e6d6b4-3bde-4fe8-9a76-c2d5c4fa8822
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: CAUSEOFINJURYCD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2a97454b-810b-4f7e-a56e-959a5e53b379
+          stepCounter: 63e6d6b4-3bde-4fe8-9a76-c2d5c4fa8822
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: CONTROVERTEDCLAIMIND
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dc5dcfda-02e2-4181-a08d-72b52e95a6db
+          stepCounter: 63e6d6b4-3bde-4fe8-9a76-c2d5c4fa8822
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: EMPLOYMENTSTATUSCD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0cf1539b-84d9-453c-883e-7e8b0e5db6fd
+          stepCounter: 63e6d6b4-3bde-4fe8-9a76-c2d5c4fa8822
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: JOINTCOVERAGEIND
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8865b52b-e818-474e-9b64-5018f854bd56
+          stepCounter: 63e6d6b4-3bde-4fe8-9a76-c2d5c4fa8822
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: NATUREOFINJURYCD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f23c020b-e379-4db6-b8dc-e95472877387
+          stepCounter: 63e6d6b4-3bde-4fe8-9a76-c2d5c4fa8822
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: OWCPNBR
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2dd7658c-4525-48e9-9a73-189fbd21ddfa
+          stepCounter: 63e6d6b4-3bde-4fe8-9a76-c2d5c4fa8822
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: WCBCLAIMNBR
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4ad6a4a4-4123-47e8-9b88-f2c22694a074
+          stepCounter: 63e6d6b4-3bde-4fe8-9a76-c2d5c4fa8822
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: WCSECTION32CLAIMIND
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: VW_ALL_CLAIM_INFO_AGG_FINANCIALS_Q
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

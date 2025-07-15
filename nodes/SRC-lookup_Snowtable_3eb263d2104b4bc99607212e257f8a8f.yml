@@ -1,0 +1,35 @@
+fileVersion: 1
+id: 889a4f7a-2513-41d2-a340-1566c156b095
+name: lookup_Snowtable_3eb263d2104b4bc99607212e257f8a8f
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 498f2b1c-b117-4989-bf16-3185fe9e402f
+          stepCounter: 889a4f7a-2513-41d2-a340-1566c156b095
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: FIRST_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: lookup_Snowtable_3eb263d2104b4bc99607212e257f8a8f
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

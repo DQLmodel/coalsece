@@ -1,0 +1,225 @@
+fileVersion: 1
+id: 77f5552d-d2d7-4d12-893b-84c87aee24ef
+name: PROFILE_a897982e-0092-48e9-ba48-57fa3a736704
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b4e2f57c-269a-4f74-a4b6-ec8b8b8fb80a
+          stepCounter: 77f5552d-d2d7-4d12-893b-84c87aee24ef
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: /TOY/ID001
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7340ce35-59fb-422b-b5be-534231ea1666
+          stepCounter: 77f5552d-d2d7-4d12-893b-84c87aee24ef
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: /AF/NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1c89f232-4236-40c3-8a1e-ba8025f78efe
+          stepCounter: 77f5552d-d2d7-4d12-893b-84c87aee24ef
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: /AFUNIVERS/JUST/CHECK
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9242531d-a86c-44e3-8cbb-9f5c74bc9853
+          stepCounter: 77f5552d-d2d7-4d12-893b-84c87aee24ef
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: /AF/INDATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2c31b235-83d9-4231-acc1-e0c972155e2c
+          stepCounter: 77f5552d-d2d7-4d12-893b-84c87aee24ef
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: /SELL/DATEP01
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 023607e8-769b-482d-a2c8-679530fdd040
+          stepCounter: 77f5552d-d2d7-4d12-893b-84c87aee24ef
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: /SELL/COSTINRS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ec1485ee-bbc6-4016-ae3c-6fe5c6a48a98
+          stepCounter: 77f5552d-d2d7-4d12-893b-84c87aee24ef
+        config: {}
+        dataType: VARCHAR(10)
+        defaultValue: ""
+        description: ""
+        name: TOT/ITEM/SOLD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4b4d965f-a932-489d-b26f-8a33887025eb
+          stepCounter: 77f5552d-d2d7-4d12-893b-84c87aee24ef
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: DSCODE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9ca48dc9-d929-42d9-aeda-a6b9601bdd37
+          stepCounter: 77f5552d-d2d7-4d12-893b-84c87aee24ef
+        config: {}
+        dataType: BINARY(2)
+        defaultValue: ""
+        description: ""
+        name: Poppy
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 04da0ba6-ebe6-400f-90b8-9dc341bd0df2
+          stepCounter: 77f5552d-d2d7-4d12-893b-84c87aee24ef
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: test/column
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c215a2d9-a41b-40d7-83ea-28e5f1465508
+          stepCounter: 77f5552d-d2d7-4d12-893b-84c87aee24ef
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: new
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: PROFILE_a897982e-0092-48e9-ba48-57fa3a736704
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
