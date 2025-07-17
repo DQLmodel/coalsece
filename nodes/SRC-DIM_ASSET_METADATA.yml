@@ -378,6 +378,7 @@ operation:
         config: {}
         dataType: VARCHAR(16777216)
         description: ""
+        isChangeTracking: true
         name: PRODUCT
         nullable: true
         sourceColumnReferences:
