@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "21"
+mappingDefinitions:
+  SRC:
+    database: DQLABS_QA
+    schema: CARMAX
+  TARGET:
+    database: DQLABS
+    schema: DQLABS
+name: New Environment
+type: Environment
