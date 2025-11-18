@@ -1,0 +1,50 @@
+fileVersion: 1
+id: 2086856c-b483-41a9-a78f-e568aa665220
+name: dq_test
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: TARGET
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f90a9d44-dae3-4cd7-b5fd-6a15fc70cb2b
+          stepCounter: 2086856c-b483-41a9-a78f-e568aa665220
+        config: {}
+        dataType: INT
+        defaultValue: ""
+        description: ""
+        name: id
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 89018363-da68-4671-91b1-4be269af0d84
+          stepCounter: 2086856c-b483-41a9-a78f-e568aa665220
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: dq_test
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

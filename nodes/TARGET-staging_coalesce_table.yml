@@ -1,0 +1,169 @@
+fileVersion: 1
+id: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+name: staging_coalesce_table
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: TARGET
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b0cb4b01-4838-464a-8ee6-8e4327fac858
+          stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: customer_id
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 45a6d56a-eab1-4320-932f-e9bc8ec80689
+          stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: first_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ce866b96-c618-4664-9e94-068c549f9b37
+          stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: last_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e37476ce-cf0c-4bd1-9d30-93cf19a17e1a
+          stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: email
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a7f8ce5f-eecd-4595-9a4f-3a10fd42854a
+          stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: phone_number
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ecbe4d0a-af64-4861-9aa6-43743093edb9
+          stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: date_of_birth
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 65ef7d94-11f5-458b-9787-1ee3ae0feb48
+          stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        name: registration_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bc02d871-3dd2-4305-b6f4-aca505de858e
+          stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: last_login_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b02df3c3-1539-4e71-b89e-45f79390186f
+          stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+        config: {}
+        dataType: LONG
+        defaultValue: ""
+        description: ""
+        name: is_active
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: staging_coalesce_table
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

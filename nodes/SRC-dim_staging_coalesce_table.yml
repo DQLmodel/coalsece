@@ -1,0 +1,292 @@
+fileVersion: 1
+id: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+name: dim_staging_coalesce_table
+operation:
+  config:
+    groupByAll: false
+    insertStrategy: UNION ALL
+    orderby: false
+    orderbycolumn:
+      items:
+        - {}
+    postSQL: ""
+    preSQL: ""
+    selectDistinct: false
+    testsEnabled: false
+    truncateBefore: false
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: SRC
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b97b7460-3149-4854-b3ce-b5e4e1c77999
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: BIGINT
+        defaultValue: ""
+        description: ""
+        isSurrogateKey: true
+        name: dim_staging_coalesce_table_key
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4a6048ae-3bf6-47b7-ab6e-985719cc659c
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: LONG
+        description: ""
+        isBusinessKey: true
+        name: customer_id
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b0cb4b01-4838-464a-8ee6-8e4327fac858
+                stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 634dccbc-3d89-4a99-98f8-14aa0bdb1a30
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: STRING
+        description: ""
+        name: first_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 45a6d56a-eab1-4320-932f-e9bc8ec80689
+                stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c18cfb93-13b0-47cc-95e4-36a792882e94
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: STRING
+        description: ""
+        name: last_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ce866b96-c618-4664-9e94-068c549f9b37
+                stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0a059a07-03d4-46a0-bc50-050c828df4d4
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: STRING
+        description: ""
+        name: email
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e37476ce-cf0c-4bd1-9d30-93cf19a17e1a
+                stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c1eafa83-89d0-4919-8925-a9aceb324bf8
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: LONG
+        description: ""
+        name: phone_number
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a7f8ce5f-eecd-4595-9a4f-3a10fd42854a
+                stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ca3d51bf-731b-4aac-85fe-029294b900f3
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: DATE
+        description: ""
+        name: date_of_birth
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ecbe4d0a-af64-4861-9aa6-43743093edb9
+                stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 656f7cd5-9844-4c5b-ad69-327939cce26c
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: registration_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 65ef7d94-11f5-458b-9787-1ee3ae0feb48
+                stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: cfa8bb69-99fc-405c-9237-2fd5a089a3a6
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: STRING
+        description: ""
+        name: last_login_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: bc02d871-3dd2-4305-b6f4-aca505de858e
+                stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8097572a-b482-45a2-9cc3-4bb376649a9a
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: LONG
+        description: ""
+        name: is_active
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b02df3c3-1539-4e71-b89e-45f79390186f
+                stepCounter: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b6762943-b79b-418c-97d2-ac9cd34f8e48
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: NUMERIC
+        defaultValue: ""
+        description: ""
+        isSystemVersion: true
+        name: system_version
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 026fe4d4-5c3a-4f6e-bd05-9defa700a595
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        isSystemCurrentFlag: true
+        name: system_current_flag
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dadc601a-c337-4fd8-9ce1-f613cb670fdd
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemStartDate: true
+        name: system_start_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7f63ca55-a470-4108-acf4-801e4979d614
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemEndDate: true
+        name: system_end_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST('2999-12-31 00:00:00' AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a6e6e768-ac96-4f75-a1dd-0f7164f85656
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemCreateDate: true
+        name: system_create_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3ab3ceae-6c4d-41c0-9107-1c8ca86d76c4
+          stepCounter: 3eff32d2-b0e9-4661-aefe-df8612bb6330
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemUpdateDate: true
+        name: system_update_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          staging_coalesce_table: 63412bbe-26fd-4920-8bbe-c3065c5a1a3c
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: TARGET
+            nodeName: staging_coalesce_table
+        join:
+          joinCondition: FROM {{ ref('TARGET', 'staging_coalesce_table') }} `staging_coalesce_table`
+        name: dim_staging_coalesce_table
+        noLinkRefs: []
+  name: dim_staging_coalesce_table
+  overrideSQL: false
+  schema: ""
+  sqlType: Dimension
+  type: sql
+  version: 1
+type: Node

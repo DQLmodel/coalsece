@@ -1,0 +1,118 @@
+fileVersion: 1
+id: c2595351-5f18-4b90-9399-ce44679e5565
+name: connection_metadata
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b83720aa-28fe-4a2a-a5b3-429005017da9
+          stepCounter: c2595351-5f18-4b90-9399-ce44679e5565
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: CONNECTION_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c675181b-24ea-4e81-938f-3e3ef0d72062
+          stepCounter: c2595351-5f18-4b90-9399-ce44679e5565
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: CONNECTION_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e9cde240-4502-46ce-81fb-8933aa6d4a31
+          stepCounter: c2595351-5f18-4b90-9399-ce44679e5565
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: DATASOURCE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 05462b50-b8b1-445e-9baf-f478ec0c0970
+          stepCounter: c2595351-5f18-4b90-9399-ce44679e5565
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: STATUS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 07e40100-22a6-4df6-998e-24c470ddb3a7
+          stepCounter: c2595351-5f18-4b90-9399-ce44679e5565
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        name: RUN_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cf03d4b4-d780-4861-98d0-32063afb4cb7
+          stepCounter: c2595351-5f18-4b90-9399-ce44679e5565
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        name: CREATED_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: connection_metadata
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
